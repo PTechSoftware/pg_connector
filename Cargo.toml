@@ -1,9 +1,16 @@
 [package]
 name = "pg_connector"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
+authors = ["PTechSoftware <info@ptechsoftware.io>"]
+description = "A powerful and easy-to-use PostgreSQL connector for Rust with connection pooling and read/write cluster support."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/PTechSoftware/pg_connector"
+keywords = ["postgres", "database", "sql", "pool", "bb8"]
+categories = ["database"]
 
 [dependencies]
 bb8 = "0.9.1"
 bb8-postgres = "0.9.0"
-tokio = "1.50.0"
+tokio = { version = "1.40.0", features = ["full"] }
+
