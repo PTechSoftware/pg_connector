@@ -137,6 +137,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
+## 📝 Changelog
+
+### v1.0.1 (2026-03-22)
+
+#### Add feature
+
+- Add feature to get detailed error information from Postgres.
+
 <div align="center">
   <sub>Built with ❤️ by PTechSoftware</sub>
 </div>

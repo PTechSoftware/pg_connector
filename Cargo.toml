@@ -1,6 +1,6 @@
 [package]
 name = "pg_connector"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2024"
 authors = ["PTechSoftware <info@ptechsoftware.io>"]
 description = "A powerful and easy-to-use PostgreSQL connector for Rust with connection pooling and read/write cluster support."
